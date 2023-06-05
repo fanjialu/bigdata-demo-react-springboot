@@ -1,0 +1,47 @@
+.page-bar {
+    width: 100%;
+    height: 70px;
+    padding: 10px 30px;
+    background: linear-gradient(91.75deg, #48409E -9.31%, #4332F7 130.93%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+
+    .left {
+        flex: 1;
+        // max-width: 50vw;
+        overflow: hidden;
+
+        .title {
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+
+        }
+
+        .desc {
+            width: 300px;
+            margin-top: 10px;
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 11px;
+            // transform: scale(0.8);
+        }
+
+    }
+
+    .right {
+        img {
+            height: 50px;
+            width: 92.5px;
+        }
+
+    }
+
+
+}
