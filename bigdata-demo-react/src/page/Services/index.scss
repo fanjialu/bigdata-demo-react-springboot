@@ -1,0 +1,28 @@
+.services{
+    .selects{
+        display: flex;
+        gap: 15px;
+    }
+    .nodes{
+        margin-top:50px;
+        display: flex;
+        gap: 5%;
+        .ant-card-body {
+            .content {
+                display: block;
+            }
+        }
+        .content{
+            p{
+                font-size: 15px;
+                font-weight: normal;
+                line-height: 15px;
+                padding-left:10px ;
+                color: #2BA700; 
+            }
+            .p-wrap{
+                margin-top: 30px;
+            }
+        }
+    }
+}

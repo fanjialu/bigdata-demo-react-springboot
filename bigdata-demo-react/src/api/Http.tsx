@@ -10,14 +10,6 @@ async function getLiveChats() {
             name: item.nickname
         }
     }).reverse();
-
-    // const ul = document.getElementById("ul");
-    // messages.forEach(({ time, text, name }, index) => {
-    //     const node = document.createElement("li");
-    //     const textnode = document.createTextNode((index + 1) + " ----> " + time + " ----> " + name + " ----> " + text);
-    //     node.appendChild(textnode);
-    //     ul.appendChild(node)
-    // })
     return messages
 }
 

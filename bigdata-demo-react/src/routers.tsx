@@ -2,6 +2,7 @@ import App from "./page/App";
 import { BrowserRouter, useRoutes } from 'react-router-dom';
 import { FirstChart } from "./page/Chart";
 import Dashboard from "./page/Dashboard";
+import Services from "./page/Services";
 
 
 const GetRoutes = () => {
@@ -23,6 +24,18 @@ const GetRoutes = () => {
                             { path: '/chart/my_first_chart', element: <FirstChart /> },
                         ]
                     },
+                    {
+                        path: "/services", element: <Services />
+                    },
+                    {
+                        path: "/hosts", element: <Services />
+                    },
+                    {
+                        path: "/alerts", element: <Services />
+                    },
+                    {
+                        path: "/admin", element: <Services />
+                    }
                 ]
             },
         ]

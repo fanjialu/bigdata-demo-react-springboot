@@ -1,20 +1,20 @@
 import { Card } from "antd"
 import "./index.scss"
 
-const ChartCard = ({ title, content, key, lineCapacity }:
+const ChartCard = ({ title, content, key, width, aspectRatio }:
     {
         title: string,
         content: any,
         key: string | number,
-        lineCapacity: number
+        width: string,
+        aspectRatio: string,
     }) => {
 
     // lineCapacity = 4;
 
-    return <li className="chart-card" key={key}>
+    return <li className="chart-card" style={{ aspectRatio: aspectRatio, width: width }} key={key}>
         <Card title={title} className="card">
             <div className="content">{content}</div>
-            {false&&<div>{lineCapacity}</div>}
         </Card>
     </li>
 
