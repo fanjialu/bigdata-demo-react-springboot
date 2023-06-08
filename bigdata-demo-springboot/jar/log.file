@@ -1,0 +1,35 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.12)
+
+2023-06-08 10:44:27.256  INFO 1121483 --- [           main] com.lws.demo1.Demo1Application           : Starting Demo1Application v0.0.1-SNAPSHOT using Java 1.8.0_312 on localhost with PID 1121483 (/root/AAAAA/bigdata-demo-react-sprintboot/bigdata-demo-springboot/jar/platform-springboot-api.jar started by root in /root/AAAAA/bigdata-demo-react-sprintboot/bigdata-demo-springboot/jar)
+2023-06-08 10:44:27.263  INFO 1121483 --- [           main] com.lws.demo1.Demo1Application           : No active profile set, falling back to 1 default profile: "default"
+2023-06-08 10:44:29.363  INFO 1121483 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2023-06-08 10:44:29.384  INFO 1121483 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-08 10:44:29.384  INFO 1121483 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-08 10:44:29.510  INFO 1121483 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-08 10:44:29.510  INFO 1121483 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2143 ms
+2023-06-08 10:44:30.253  WARN 1121483 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3000 is already in use
+2023-06-08 10:44:30.260  INFO 1121483 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-08 10:44:30.286  INFO 1121483 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-08 10:44:30.325 ERROR 1121483 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3000 or configure this application to listen on another port.
+
