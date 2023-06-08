@@ -14,6 +14,6 @@
 
 ### 三、项目运行
 
-- 输入 ：cd bigdata-demo-react-springboot/bigdata-demo-springboot/jar进入jar包目录
+- 输入 ：cd bigdata-demo-react-sprintboot/bigdata-demo-springboot/jar/进入jar包目录
 - 修改脚本权限：chmod 775 startdemo.sh
 - 启动后端运行脚本：./startdemo.sh
